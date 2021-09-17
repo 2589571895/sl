@@ -66,7 +66,7 @@ def pinglu(key):
         print(sss['postID'])
         shiz+=1
         dfghj = random.choice(['拿走了[滑稽]','好用[滑稽][玫瑰]','真不错[滑稽]','日常白嫖[滑稽]','这东西还可以[滑稽]'])
-        dfg = f'{dfghj}{shiz}'
+        dfg = f'{dfghj}'
         post_id = sss['postID']
         print(dfg)
         da={'post_id':post_id,'comment_id':0,'text':dfg,'patcha':'','images':'','remindUsers':''}
